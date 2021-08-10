@@ -1,0 +1,36 @@
+.users {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.users-header {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+table {
+  margin-top: 20px;
+  width: 100%;
+}
+
+th {
+  text-align: left;
+}
+
+th {
+  border-bottom: 1px solid #CCC;
+}
+
+td {
+  border-bottom: 1px solid #DDD;
+}
+
+th,td {
+  padding: 15px 0
+}

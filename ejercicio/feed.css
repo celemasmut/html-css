@@ -1,0 +1,38 @@
+main {
+  background-color: rgb(241, 241, 241);
+  height: calc(100vh - 60px)
+}
+
+.feed {
+  color: black;
+  padding-top: 20px;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+article {
+  background-color: white;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: #CCC 0 0 5px;
+}
+
+.post-header {
+  color: #666;
+  padding: 10px 20px;
+  border-bottom: 1px solid #DDD;
+}
+
+.post-header .author {
+  font-weight: bold;
+  color: black
+}
+
+.post-content {
+  padding: 10px 20px;
+}
+
+.post-footer {
+  border-top: 1px solid #DDD;
+  padding: 10px 20px;
+}

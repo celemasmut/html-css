@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <title>Mi red social</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../shared.css">
+    <link rel="stylesheet" href="shared.css">
+    <link rel="stylesheet" href="../form.css">
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <div class="brand">Mi red social</div>
+        <nav>
+          <a class="nav-link" href="../index.html">Home</a>
+          <a class="nav-link active" href="index.html">Usuarios</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="users">
+        <div class="users-header">
+          <h1>Nuevo usuario</h1>
+          <div class="buttons">
+            <a href="index.html">
+              <button>Volver</button>
+            </a>
+          </div>
+        </div>
+        <form>
+          <div class="form-field">
+            <label for="name">Nombre</label>
+            <input id="name" name="nombre" required>
+          </div>
+
+          <div class="form-field">
+            <label for="lastname">Apellido</label>
+            <input id="lastname" name="apellido" required>
+          </div>
+
+          <div class="form-field">
+            <label for="hobby">Hobby</label>
+            <input id="hobby" name="hobby" required>
+          </div>
+
+          <div class="form-buttons">
+            <button type="submit">Crear usuario</button>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

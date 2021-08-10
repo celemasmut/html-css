@@ -1,0 +1,72 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(36, 156, 255);
+  display: flex;
+  justify-content: center;
+}
+
+.header-content {
+  max-width: 1024px;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  height: 60px;
+  flex: 1;
+}
+
+header .brand {
+  font-size: 22px;
+  padding: 0 10px;
+  color: white;
+  line-height: 60px;
+  text-shadow: 2px 2px rgb(23, 95, 163);
+}
+
+nav {
+  display: flex;
+  padding: 0 20px;
+}
+
+.nav-link {
+  flex: 1;
+  padding: 0 10px;
+  line-height: 60px;
+}
+
+.nav-link:hover {
+  background-color: rgb(2, 96, 173);
+}
+
+.nav-link.active {
+  border-bottom: 8px solid rgb(216, 237, 255);
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+main {
+  
+}
+
+button {
+  font-size: 18px;
+  border-radius: 16px;
+  color: rgb(232, 241, 255);
+  background-color: rgb(90, 153, 255);
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(35, 119, 255);
+}

@@ -1,0 +1,29 @@
+.form-field {
+  display: flex;
+  flex-direction: column; 
+  margin: 20px 0;
+}
+
+label {
+  font-size: 18px;
+  color: #444
+}
+
+input {
+  border-radius: 10px;
+  border: 1px solid #CCC;
+  margin-top: 10px;
+  font-size: 18px;
+  padding: 11px;
+  outline: none;
+}
+
+input:focus {
+  border: 2px solid rgb(35, 119, 255);
+  padding: 10px;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: flex-end;
+}

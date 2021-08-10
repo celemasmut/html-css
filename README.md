@@ -19,6 +19,9 @@
 
 ## Ejercicio
 
-Hacer una página que tenga tres posts de usuarios con texto. Cada post debe tener el nombre del usuario que lo creo, el contenido un boton de like.
-Luego hacer otra página donde se vea una tabla de usuarios y un boton que lleve a un formulario para crear el usuario.
-Todas las páginas deben tener una barra de navegación para navegar entre la home (posts) y los usuarios.
+Hacer un sitio web que contenga:
+  - Una página home con tres posts de usuarios. Cada post debe tener el nombre del autor/a, un contenido textual y un boton de like.
+  - Una página de usuarios donde se vea una tabla con datos de los usuarios. Los datos son: nombre, apellido y hobby. Además, debe haber un botón de crear usuario que lleve a la página de creación de usuario.
+  - Una página de creación de usuario que sea un formulario con los campos que hacen a un usuario: nombre, apellido y hobby. Debe haber una forma de volver de la página de creación de usuario a la página que muestra los usuarios en una tabla.
+  - Todas las páginas deben tener el mismo header que permita navegar entre la home y la lista de usuarios.
+  - Ninguno de los botones es necesario que funcione, excepto los que hagan que sirvan para navegar entre las diferentes páginas.

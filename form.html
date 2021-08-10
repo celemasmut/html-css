@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <title>Mi formulario</title>
+  </head>
+  <body>
+
+    <form>
+      <label for="nombre">Nombre</label>
+      <input id="nombre" name="name" required />
+
+      <br />
+
+      <label for="contrasena">Contraseña</label>
+      <input id="contrasena" type="password" name="password" maxlength="6" />
+
+      <br />
+
+      <label for="email">Correo electrónico</label>
+      <input id="email" type="email" name="email" required />
+
+      <h4>Genero</h4>
+      <label>
+        <input type="radio" name="gender" value="F">Femenino
+      </label>
+      <label>
+        <input type="radio" name="gender" value="M">Masculino
+      </label>
+      <label>
+        <input type="radio" name="gender" value="X">No binario
+      </label>
+
+      <h4>Intereses</h4>
+      <label>
+        <input type="checkbox" name="art" value="art">Arte
+      </label>
+      <label>
+        <input type="checkbox" name="cuisine" value="cuisine">Cocina
+      </label>
+      <label>
+        <input type="checkbox" name="historia" value="history">Historia
+      </label>
+
+      <br />
+
+      <button type="reset">Limpiar</button>
+      <button type="submit">Enviar</button>
+    </form>
+
+  </body>
+</html>

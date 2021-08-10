@@ -25,3 +25,9 @@ Hacer un sitio web que contenga:
   - Una página de creación de usuario que sea un formulario con los campos que hacen a un usuario: nombre, apellido y hobby. Debe haber una forma de volver de la página de creación de usuario a la página que muestra los usuarios en una tabla.
   - Todas las páginas deben tener el mismo header que permita navegar entre la home y la lista de usuarios.
   - Ninguno de los botones es necesario que funcione, excepto los que hagan que sirvan para navegar entre las diferentes páginas.
+
+Este es un ejemplo de como quedaría, **no es necesario que lo hagan exáctamente igual**, mientras sigan las consignas textuales pueden hacerlo como más les guste.
+
+![Home](ejercicio/home.png)
+![Users](ejercicio/users.png)
+![Create Users](ejercicio/create-users.png)

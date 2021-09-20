@@ -3,17 +3,18 @@
 ## Temario
 
 - HTML basics (tags, atributos)
-- Estructura básica de un documento (html, head, body)
+- Estructura básica de un documento (html, head, body, title)
+- HTML 5 boilerplate
 - Etiquetas comunes a, p, img, h*, br
 - En bloque vs en linea div, span
 - Etiquetas de layout header, nav, section, article
-- Tablas
-- Formularios form, input, checkbox, radio, button
 - CSS basics (selectores, propiedades)
 - Selectores (etiqueta, id, clase, atributo)
-- Selectores avanzados (union, hijos, :hover)
 - Box model (margin, padding, border, background)
+- Tablas
+- Formularios form, input, checkbox, radio, button
 - Propiedades comunes (color, font-family, font-size, text-align)
+- Selectores avanzados (union, hijos, :hover)
 - Posicionamiento (static, relative, absolute, fixed, top, left, bottom, right)
 - Flexbox (https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 

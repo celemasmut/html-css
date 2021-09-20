@@ -1,0 +1,39 @@
+body{
+    background-color:white !important;
+}
+div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+div button{
+    border-radius: 15px;
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(52, 157, 243);
+    border: none;
+    margin: 15px;   
+}
+
+table {
+    margin-top: 20px;
+    width: 100%;
+    padding: 40px;
+  }
+
+  th {
+    text-align: left;
+  }
+  
+  th {
+    border-bottom: 1px solid #CCC;
+  }
+  
+  td {
+    border-bottom: 1px solid #DDD;
+  }
+  
+  th,td {
+    padding: 15px 0
+  }

@@ -1,0 +1,12 @@
+#cajapadre div{
+    width: 50px;
+    height: 50px;
+    border : 4px solid black;
+    margin: 15px;
+}
+
+#cajapadre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
